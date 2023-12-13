@@ -1,0 +1,92 @@
+.createAdd{
+    position: absolute;
+  top: 100px; /* Adjust the top position as needed */
+  right: 20px; /* Adjust the right position as needed */
+  padding: 15px;
+  font-size: 17px;
+  margin: 70px;
+  font-weight: bold;
+  margin-top: 200px;
+  background-color: rgb(48, 48, 48);
+  border-radius: 20px;
+  border: 5px solid rgb(255, 255, 255);
+  cursor: pointer;
+  color: white;
+}
+
+.intro{
+  margin-top:200px;
+  margin-left: 300px;
+}
+
+h1{
+  font-size: 45px;
+}
+
+h3{
+  font-size: 17px;
+}
+
+.tableContainer {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Optional: Set a height for vertical centering */
+   
+   
+    
+  }
+  
+  /* Optional: Adjust styles for the table */
+  .tableContainer table {
+    width: 70%; /* Adjust the width as needed */
+    border-collapse: collapse;
+    border-radius: 100px;
+    margin-bottom: 500px;
+    
+   
+  }
+  
+  .tableContainer th, .tableContainer td {
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #aeaeae;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    
+    
+    
+   
+  }
+  
+  .tableContainer th {
+    background-color: rgba(213, 234, 219, 0.632);
+    font-weight: 100px;
+    font-size: 17px;
+   
+  }
+
+
+    .iconn  {
+        width: 40px; /* Set the width as needed */
+        height: 30px; /* Set the height as needed */
+        background-color: rgb(255, 255, 255) ;
+        cursor: pointer;
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+        border-radius: 120px;
+        margin: 10px;
+        padding: 5px;
+        padding-bottom: 2px;
+        
+      }
+
+      .iconn:hover{
+        background-color: rgb(120, 176, 120) ;
+        color: rgb(255, 255, 255);
+      }
+      
+
+  

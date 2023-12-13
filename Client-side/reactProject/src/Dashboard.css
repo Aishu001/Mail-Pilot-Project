@@ -1,0 +1,91 @@
+/* Dashboard.css */
+
+.navbar {
+  position: relative;
+
+  display: flex;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+  background-color:  #d2f7e2;
+  width:100%;
+ 
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  margin-right: 100px;
+  color: rgb(7, 7, 7);
+  font-size: 15px;
+  margin: 20px;
+  font-weight: bolder;
+}
+
+.nav-item:hover {
+  cursor: pointer;
+  color: #049741;
+  padding: 10px;
+  border-bottom: 9px solid  #70efa5;
+  font-size: 20px;
+  margin: 6px;
+  font-weight: bolder;
+  border-radius: 10px;
+}
+
+
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  margin-right: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  margin-right: 150px;
+}
+.nav-link:hover {
+  color: #049741;
+  font-size: 20px;
+}
+
+.navbar-nav .dropdown-menu {
+  background-color: #e4f1e9;
+  border: none;
+  position: absolute;
+  font-size: 14px;
+  top: 100%; /* Position the dropdown below the navbar */
+  left: 0;
+  border-radius: 0 0 10px 10px; /* Optional: Add border-radius to match the navbar */
+}
+
+.navbar-nav .dropdown-menu .dropdown-item {
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+.navbar-nav .dropdown-item {
+  color: rgb(38, 38, 38);
+}
+
+
+.account-dropdown-wrapper {
+  position: relative;
+}
+
+.navbar-nav .account-dropdown-wrapper .dropdown-menu {
+  position: absolute;
+  top: 100%; /* Position the dropdown below the wrapper */
+  left: 0;
+  width: 50%; /* Ensure the dropdown spans the full width */
+ /* Optional: Add border-radius to match the navbar */
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}

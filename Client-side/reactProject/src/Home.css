@@ -1,0 +1,88 @@
+.navbarr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  /* Optional: Set a background color for the navbar */
+
+}
+
+.logo {
+  width: 150px; /* Adjust the width of the logo as needed */
+}
+
+.buttons {
+  display: flex;
+  gap:20px; 
+}
+
+.btns{
+  padding: 10px;
+  font-size: 14px;
+  width: 100px;
+  height: 40px;
+  font-weight: bolder;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 16px;
+  border: 1px solid black;
+  
+  
+}
+.btns:hover {
+  
+  box-shadow: 1px 4px 0px 1px rgb(131, 215, 153);
+border: 2px solid rgb(60, 149, 35);
+color:  rgb(48, 209, 4);
+
+}
+
+.containerr {
+  display: flex;
+}
+
+.text-content {
+  flex: 1; /* Take up all available space */
+  padding: 10px; /* Add padding for spacing */
+}
+
+.text-content h1{
+ font-size: 100px;
+ margin: 100px;
+ font-family: 'Poppins', sans-serif;
+ background: -webkit-linear-gradient( rgb(3, 128, 3), rgb(188, 188, 188));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-content p{
+  font-size: 12px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+.image {
+  flex: 1; /* Take up all available space */
+width: 800px;/* Ensure the image doesn't exceed its container */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 20px;
+  animation: floatAnimation 1s infinite alternate;
+}
+@keyframes floatAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px); /* Adjust the vertical distance the image will float */
+  }
+}
+
+.cursor {
+  animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
