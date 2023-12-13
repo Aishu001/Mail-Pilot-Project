@@ -91,8 +91,10 @@ border-bottom-right-radius: 1111px;
     width: 400px;
     padding: 10px;
     text-align: left;
-    border-radius: 5px;
-   border: 2px solid rgb(59, 181, 112);
+    margin-top: 5px;
+    border: none;
+    background-color: rgb(240, 249, 238);
+   border-bottom: 2px solid rgb(59, 181, 112);
    font-size: 15px;
   }
    

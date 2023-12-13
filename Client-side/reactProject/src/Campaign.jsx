@@ -116,9 +116,7 @@ function Campaign() {
         name="from"
         className='formInput'
       />
-      <Form.Control.Feedback type="invalid">
-        Please enter the sender email
-      </Form.Control.Feedback>
+     
     </Form.Group>
 
 
