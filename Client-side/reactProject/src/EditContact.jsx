@@ -38,7 +38,7 @@ function EditContact({contactId}) {
       };
 
       useEffect(() => {
-        axios.get(`http://localhost:3000/contact/list/${id}`)
+        axios.get(`https://mail-pilot-project.onrender.com/contact/list/${id}`)
           .then((response) => {
             const { firstName, lastName, emailId } = response.data; // Corrected variable name
             setFormData({ firstName, lastName, emailId });
@@ -64,7 +64,7 @@ function EditContact({contactId}) {
             event.stopPropagation();
           }
     
-          const response = await axios.put(`http://localhost:3000/contact/list/edit/${id}`,formData);
+          const response = await axios.put(`https://mail-pilot-project.onrender.com/contact/list/edit/${id}`,formData);
           console.log(response.data);
           alert("Data is updated") 
           navigate('/contact')

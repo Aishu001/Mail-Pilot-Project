@@ -56,7 +56,7 @@ function Campaign() {
     console.log('Form submitted:', emailData);
 
     // Use formData in the axios.post request
-    axios.post('http://localhost:3000/campaign/send/BulkEmail', formData, {
+    axios.post('https://mail-pilot-project.onrender.com/campaign/send/BulkEmail', formData, {
       headers: {
         'Content-Type': 'multipart/form-data',
       },
@@ -75,7 +75,7 @@ function Campaign() {
 
 
   useEffect(() => {
-    axios.get('http://localhost:3000/contact/list/all').then((res) => {
+    axios.get('https://mail-pilot-project.onrender.com/contact/list/all').then((res) => {
       console.log("Response", res);
       setGroupEmail(res.data);
   

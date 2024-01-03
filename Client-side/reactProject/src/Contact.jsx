@@ -21,7 +21,7 @@ function Contact() {
 
   useEffect(() => {
 
-    axios.get('http://localhost:3000/contact/list/all').then((res) => {
+    axios.get('https://mail-pilot-project.onrender.com/contact/list/all').then((res) => {
       const columnKeys = Object.keys(res.data[0]).filter((key) =>   key !== '__v');
 
       setColumns(columnKeys);
@@ -32,7 +32,7 @@ function Contact() {
   const handleDelete = (id) => {
     try {
       axios
-        .delete(`http://localhost:3000/contact/list/delete/${id}`)
+        .delete(`https://mail-pilot-project.onrender.com/contact/list/delete/${id}`)
         .then((response) => {
           setRows((previousRows) => {
             return previousRows.filter((row) => {

@@ -48,7 +48,7 @@ function AddContact() {
             try {
   
         
-              const response = await axios.post('http://localhost:3000/contact/list/create',formData);
+              const response = await axios.post('https://mail-pilot-project.onrender.com/contact/list/create',formData);
               console.log(response.data);     
               navigate('/contact')
          // Navigate to the home page
