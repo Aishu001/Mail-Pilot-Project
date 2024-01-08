@@ -57,12 +57,11 @@ function SignIn() {
         // Reset validation state after successful submission
         setFormErrors({});
       } catch (error) {
-        if (error.response && error.response.status === 409) {
-          // Handle the conflict error (email already exists)
-          console.log('Email already exists:', error.response.data);
-          // You can display an error message to the user here
-        } else {
-          console.log('Other error:', error);
+        console.log('Axios Error:', error);
+        if (error.response) {
+          console.log('Response Data:', error.response.data);
+          console.log('Response Status:', error.response.status);
+          console.log('Response Headers:', error.response.headers);
         }
       }
     }
