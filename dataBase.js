@@ -4,7 +4,8 @@ export function dataBaseConnection(){
 
     const mongooseParams = {
         useNewUrlParser : true,
-        useUnifiedTopology : true
+        useUnifiedTopology : true,
+        serverSelectionTimeoutMS: 5000,
     }
 
     mongoose.connect(process.env.DB_URL ,mongooseParams)
