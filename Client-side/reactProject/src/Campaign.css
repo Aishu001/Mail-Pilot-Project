@@ -10,12 +10,11 @@
   .custom-form-group {
     display: block;
     margin-bottom: 30px;
-    padding-right: 1000px;
-    padding-bottom: 20px;
+   
     padding-top: 20px;
-    padding-left: 130px;
-    text-align: left; /* Align text within the form group to the left */
-    background-color: rgb(218, 246, 226);
+   
+    text-align: left; 
+   
     border-radius: 10px;
   
   }
@@ -32,17 +31,18 @@
   
   .formlabel {
     margin-top: 50px;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
     padding: 20px;
     margin-bottom: 20px;
-    color: #000;
+    color: #000000;
+
     
   }
   
   .formInput {
-    width: 200%;
-    height: 15px;
+    width: 100%;
+    height: 30px;
     padding: 10px;
     text-align: left;
     border-radius: 5px;
@@ -50,30 +50,31 @@
     font-size: 20px;
     margin-bottom: 10px;
     margin: 5px;
-    font-size: 14px;
+    font-size: 16px;
    
      
   }
 
   .formInputTextArea{
-    width: 400%;
+    width: 100%;
     padding: 20px;
     text-align: left;
     border-radius: 5px;
     border: 1px solid rgb(0, 0, 0);
-    font-size: 14px;
+    font-size: 18px;
     margin-bottom: 10px;
     height: 240%;
     margin-top: 5px;
   }
 
   .formInputSubject{
-    width: 400%;
+    width: 100%;
+    height: 30px;
     padding: 10px;
     text-align: left;
     border-radius: 5px;
     border: 1px solid rgb(0, 0, 0);
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 10px;
     font-weight: bold;
     margin: 5px;
